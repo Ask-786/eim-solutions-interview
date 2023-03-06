@@ -1,0 +1,17 @@
+### Home
+GET http://localhost:2000 HTTP/1.1
+
+### Add Student
+POST http://localhost:2000/add-student HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"student 4",
+    "mark": 66
+}
+
+### Get Students mark
+GET http://localhost:2000/get-mark HTTP/1.1
+
+### Get Second Highest Student
+GET http://localhost:2000/get-second-highest HTTP/1.1
